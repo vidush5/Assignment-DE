@@ -25,6 +25,9 @@ Quick Start
 
 * Run ``docker-compose ps`` to see all services' states
 
+* Login to connect instance and run ``curl -i -X POST -H "Accept:application/json" -H  "Content-Type:application/json" http://localhost:8083/connectors/ -d @datagen-config.json``
+
+
   
 
 ## Resources
