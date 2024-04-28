@@ -18,6 +18,15 @@ Kafka is a distributed streaming platform designed to handle large volumes of re
 # Kafka-Connect
 Kafka Connect is a framework within Apache Kafka that enables scalable, reliable streaming data integration with external systems. It simplifies the development of data pipelines by providing a set of connectors for easily ingesting and exporting data between Kafka topics and various data sources or sinks
 
+Quick Start
+===========
+
+* ``docker-compose up -d --build`` start all services
+
+* Run ``docker-compose ps`` to see all services' states
+
+  
+
 ## Resources
 - https://developer.confluent.io/tutorials/kafka-connect-datagen/kafka.html
 - https://zendesk.engineering/create-a-test-data-generator-using-kafka-connect-f0a2419af76a
