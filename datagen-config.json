@@ -6,7 +6,7 @@
       "key.converter": "org.apache.kafka.connect.storage.StringConverter",
       "value.converter": "org.apache.kafka.connect.json.JsonConverter",
       "value.converter.schemas.enable": "false",
-      "kafka.topic": "test-topic",
+      "kafka.topic": "employee-data",
       "max.interval": 1000,
       "iterations": -1,
       "tasks.max": 1,
