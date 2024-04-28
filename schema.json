@@ -1,0 +1,27 @@
+{
+    "fields": [
+      {
+        "type": "int",
+        "optional": false,
+        "field": "id"
+      },
+      {
+        "type": "string",
+        "optional": false,
+        "field": "name"
+      },
+      {
+        "type": "string",
+        "optional": false,
+        "field": "gender"
+      },
+      {
+        "type": "string",
+        "optional": false,
+        "field": "email"
+      }
+    ],
+    "name": "users",
+    "type": "record"
+  }
+  

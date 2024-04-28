@@ -1,0 +1,17 @@
+{
+    "name": "datagen-source",
+    "config": {
+      "connector.class": "io.confluent.kafka.connect.datagen.DatagenConnector",
+      "quickstart": "users",
+      "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+      "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+      "value.converter.schemas.enable": "false",
+      "kafka.topic": "test-topic",
+      "max.interval": 1000,
+      "iterations": -1,
+      "tasks.max": 1,
+      "schema.filename": "/etc/kafka/connect/schema.json",
+      "schema.keyfield": "id"
+    }
+  }
+  
