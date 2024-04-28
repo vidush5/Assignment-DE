@@ -27,6 +27,15 @@ Quick Start
 
 * Login to connect instance and run ``curl -i -X POST -H "Accept:application/json" -H  "Content-Type:application/json" http://localhost:8083/connectors/ -d @datagen-config.json``
 
+* Use the below command to see generated data ``docker exec -it connect kafka-avro-console-consumer \
+ --bootstrap-server broker:9092 \
+ --property schema.registry.url=http://schema-registry:8081 \
+ --topic employee-data \
+ --property print.key=true \
+ --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer \
+ --property key.separator=" : " \
+ --max-messages 10``
+
 
   
 
